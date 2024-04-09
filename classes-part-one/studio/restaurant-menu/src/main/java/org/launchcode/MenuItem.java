@@ -57,3 +57,37 @@ class MenuItem {
         return isNew;
     }
 }
+//nd access levels for each class.
+//
+//Menu Class:
+//Fields:
+//menuItems: A list to store all menu items.
+//lastUpdated: A timestamp indicating when the menu was last updated.
+//Data Types:
+//menuItems: List of MenuItem objects.
+//lastUpdated: Date or timestamp.
+//Access Levels:
+//menuItems: Private (accessible only within the class).
+//lastUpdated: Private (accessible only within the class).
+//Constructors:
+//Default constructor (no parameters).
+//Constructor that initializes the menuItems list and sets the initial lastUpdated timestamp.
+//MenuItem Class:
+//Fields:
+//name: Name of the menu item.
+//price: Price of the menu item.
+//description: Description of the menu item.
+//category: Category of the menu item (appetizer, main course, or dessert).
+//isNew: Boolean flag indicating whether the menu item is new.
+//Data Types:
+//name: String.
+//price: Double (or BigDecimal for precise currency handling).
+//description: String.
+//category: Enum (e.g., Appetizer, MainCourse, Dessert).
+//isNew: Boolean.
+//Access Levels:
+//All fields: Private (accessible only within the class).
+//Constructors:
+//Constructor that initializes all fields except isNew.
+//Additional constructor that sets isNew based on a parameter (e.g., boolean isNew).
+//Remember to add getter and setter methods for relevant fields as needed. These classes will form the foundation for managing your restaurant’s menu and menu items. 🍽️👨‍🍳
