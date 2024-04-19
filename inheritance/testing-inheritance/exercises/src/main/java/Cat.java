@@ -10,6 +10,10 @@ public class Cat {
     public Cat (double aWeight) {
         weight = aWeight;
     }
+    // Additional constructor
+    public Cat() {
+        weight = 13;
+    }
 
     /**** Getters and Setters ****/
 
