@@ -22,11 +22,14 @@ public class Case {
         Flavor flavor3 = new Flavor("Red Velvet", 0.85, new ArrayList<>(Arrays.asList( "dairy", "red #5")));
         Flavor flavor4 = new Flavor("Rocky Road", 0.85, new ArrayList<>(Arrays.asList( "dairy", "nuts", "gelatin")));
         Flavor flavor5 = new Flavor("Strawberry Sorbet", 0.50, new ArrayList<>(Arrays.asList( "strawberry")));
+        // Create a list of flavors
+        ArrayList<Flavor> flavors = new ArrayList<>();
         flavors.add(flavor1);
         flavors.add(flavor2);
         flavors.add(flavor3);
         flavors.add(flavor4);
         flavors.add(flavor5);
+
     }
 
     public ArrayList<Flavor> getFlavors() {
